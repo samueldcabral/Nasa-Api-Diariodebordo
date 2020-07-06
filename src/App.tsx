@@ -8,7 +8,7 @@ import GetStarted from "./Components/GetStarted/GetStarted";
 import Diarios from "./Components/Diarios/Diarios";
 
 const App: React.FC = () => {
-  const [pagina, setPagina] = useState("diarios");
+  const [pagina, setPagina] = useState("started");
   const [nome, setNome] = useState("");
   return (
     <>
