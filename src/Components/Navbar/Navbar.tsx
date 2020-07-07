@@ -42,7 +42,7 @@ const Navbar: React.FC<Props> = ({ pagina, setPagina }) => {
         <Col className="d-flex justify-content-between">
           <Button
             className="navbar__btn"
-            variant="outline-primary"
+            variant="outline-light"
             disabled={
               pagina === "home" ? true : pagina === "started" ? true : false
             }
@@ -55,7 +55,7 @@ const Navbar: React.FC<Props> = ({ pagina, setPagina }) => {
           </Button>
           <Button
             className="navbar__btn"
-            variant="outline-primary"
+            variant="outline-light"
             onClick={handleHomeClick}
           >
             <AiOutlineHome

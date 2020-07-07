@@ -1,44 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br>
+   <img src="https://i.imgur.com/VzvT3Yh.png" alt="My logo"/>
+  <br>
+</h1>
+<p align="center">   
+ <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-%5E16.13.1-brightgreen?style=plastic&logo=appveyor"></a>
+ <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/Typescript-%5E3.7.5-green?style=plastic&logo=appveyor"></a>
+ <a href="https://github.com/axios/axios"><img src="https://img.shields.io/badge/Axios-%5E0.19.2-orange?style=plastic&logo=appveyor"></a>
+ <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-%5E4.5.0-ff69b4?style=plastic&logo=appveyor"></a>
+ <a href="mailto:samueldcabral@gmail.com"><img src="https://img.shields.io/badge/Email-Me!-lightgrey?style=plastic&logo=appveyor"></a>
+ <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue?style=plastic&logo=appveyor"></a>
+</p>
 
-## Available Scripts
+<p align="center">
+  Este projeto foi feito para um desafio e consiste em consumir a <a href="https://api.nasa.gov/">Api</a> da <strong>Nasa</strong> e criar um CRUD. Os endpoints da <strong>Nasa</strong> foram o da <a href="https://api.nasa.gov/">Astronomy Picture of the Day</a> e <a href="https://api.nasa.gov/">InSight: Mars Weather Service API</a>. O CRUD foi feito para o diário do astronauta, onde ele pode registrar suas aventuras e usar os dados coletados da Api do Insight para informações meteorológicas de Marte!
+</p>
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Screenshots](#Screenshots)
+- [Instalação](#Instalação)
+- [Contribuições](#Contribuições)
+- [Licença](#Licença)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="Screenshots">Screenshots</h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+|                                Tela Inicial                                 |
+| :-------------------------------------------------------------------------: |
+| <img src="https://i.imgur.com/MXoUDia.png" width="700" alt="splash screen"> |
 
-### `npm test`
+|                 Tela do APOD - Astronomy Picture of the Day                 |
+| :-------------------------------------------------------------------------: |
+| <img src="https://i.imgur.com/iPYWYEw.png" width="700" alt="splash screen"> |
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|      Tela do Insight - Buscando as informações da superfície de Marte       |
+| :-------------------------------------------------------------------------: |
+| <img src="https://i.imgur.com/3c37IQb.png" width="700" alt="splash screen"> |
 
-### `npm run build`
+|            Tela do cadastramento e visualização do diário (CRUD)            |
+| :-------------------------------------------------------------------------: |
+| <img src="https://i.imgur.com/pFFBXit.png" width="700" alt="splash screen"> |
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Caso queira replicar este projeto, a instalação é simples.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/samueldcabral/Nasa-Api-Diariodebordo.git
+cd Nasa-Api-Diariodebordo/
+npm install
+npm start
+```
 
-### `npm run eject`
+## Contribuições
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Você pode contribuir de várias formas, por exemplo criando novas 'features', retirando bugs, melhorando a documentação e
+exemplos, ou até traduzindo algum documento daqui para outra língua.
+You may contribute in several ways like creating new features, fixing bugs, improving documentation and examples
+or translating any document here to your language.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT](https://opensource.org/licenses/MIT) - Samuel D Cabral - 2020
