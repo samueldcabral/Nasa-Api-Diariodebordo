@@ -16,7 +16,7 @@
   Este projeto foi feito para um desafio e consiste em consumir a <a href="https://api.nasa.gov/">Api</a> da <strong>Nasa</strong> e criar um CRUD. Os endpoints da <strong>Nasa</strong> foram o da <a href="https://api.nasa.gov/">Astronomy Picture of the Day</a> e <a href="https://api.nasa.gov/">InSight: Mars Weather Service API</a>. O CRUD foi feito para o diário do astronauta, onde ele pode registrar suas aventuras e usar os dados coletados da Api do Insight para informações meteorológicas de Marte!
 </p>
 
-## Table of contents
+## Indíce
 
 - [Screenshots](#Screenshots)
 - [Instalação](#Instalação)
